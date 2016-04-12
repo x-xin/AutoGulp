@@ -8,14 +8,15 @@ AutoGulp is a template for the front-end automation, created by Roda, and mainta
 * [What's included](#what-is-included)
 * [Less section](#less-section)
 * [JavaScript section](#javascript-section)
+* [Other](#other)
 
 ## Auto function
 
-* ** LESS 编译、压缩 **
-* ** JavaScript 纠错、合并、压缩 **
-* ** 图片压缩、雪碧图（PNG / JPG） **
-* ** 缓存、清除 **
-* ** 其他、待完善 **
+*  LESS 编译、压缩 
+*  JavaScript 纠错、合并、压缩 
+*  图片压缩、雪碧图（PNG / JPG） 
+*  缓存、清除 
+*  其他、待完善 
 
 ### What's included
 
@@ -75,20 +76,20 @@ AutoGulp/
 
 ## Less section
 
-*  ** `ly-` 前缀：通用布局，如 `.ly-right”` **
+*   `ly-` 前缀：通用布局，如 `.ly-right”` 
 
-*  ** `.mod-/#mod-` 前缀：通用模块，如 `.mod-search` ，`.mod-search-more`**
+*   `.mod-/#mod-` 前缀：通用模块，如 `.mod-search` ，`.mod-search-more`
     *  一个模块一个LESS文件
     *  继承模块写在对应的模块下面
     *  模块与模块在页面上禁止嵌套
     
-*  ** `.fn-` 前缀：常用功能样式，目前就提供 `.fn-left` 、 `.fn-right` 、 `.fn-clear` 、 `.fn-hide` 四种样式，只在LESS内调用，页面内禁用**
+*   `.fn-` 前缀：常用功能样式，目前就提供 `.fn-left` 、 `.fn-right` 、 `.fn-clear` 、 `.fn-hide` 四种样式，只在LESS内调用，页面内禁用
 
-*  ** `.icon-` 前缀：图标样式，如 `.icon-edit` 、 `.icon-error` **
+*   `.icon-` 前缀：图标样式，如 `.icon-edit` 、 `.icon-error` 
 
-*  ** `.page-` 前缀：页面级样式，如 `.page-index` **
+*   `.page-` 前缀：页面级样式，如 `.page-index` 
 
-*  ** `.ui-` 前缀：**
+*   `.ui-` 前缀：
     *  表单样式：分为 `.ui-input` 、 `.ui-radio` 、 `.ui-checkbox` 、 `.ui-textarea` 、 `.ui-select` 、 `.ui-label` 、 `.ui-label-radio` 、 `.ui-label-checkbox`
     
     *  按钮样式：基本型是定大小宽度等，扩展型是搭配一个基本型使用
@@ -97,9 +98,9 @@ AutoGulp/
 
 ## JavaScript section
 
-*  ** ` l- ` 前缀：JS控件，如` .l-grid` 、 `.l-tree` **
+*   ` l- ` 前缀：JS控件，如` .l-grid` 、 `.l-tree` 
 
-*  ** ` j- ` 前缀：页面上的js交互标示，如 `.j-submit` **
+*   ` j- ` 前缀：页面上的js交互标示，如 `.j-submit` 
 
 ## Other
 Thank you for your support and guidance.
