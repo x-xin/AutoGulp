@@ -28,41 +28,42 @@ AutoGulp/
 ├── wap/
 │   ├── dest/
 │   │   ├── css/                      
-│   │   │   └── styles.css                                 // styles.css
-│   │   ├── img/                                           // 存放img
+│   │   │   └── styles.css                                 // 最终样式
+│   │   ├── img/                                           // 存放图片
 │   │   └── js/
-│   │       └── all.js                                     // all.js
+│   │       └── all.js                                     // 最终脚本
 │   ├── dev/
 │   │   ├── img/
-│   │   │   ├── default/
+│   │   │   ├── default/                                   // 默认合并图片
 │   │   │   └── sprite/                                    // 雪碧图集合
-│   │   ├── js/
+│   │   ├── js/                                            // 脚本目录
 │   │   │   ├── ajax.js 
 │   │   │   ├── jsBridge.js 
 │   │   │   ├── metareset.js 
 │   │   │   └── template.js
 │   │   └── less/
 │   │       ├── app/
-│   │       │   ├── mod/ 
+│   │       │   ├── mod/                                   // 模块目录
 │   │       │   │   └── mod-progress.less 
 │   │       │   ├── page/ 
-│   │       │   │   └── page-simple-index.less             // page 页面用户定义
-│   │       │   ├── layout.less 
-│   │       │   ├── mod.less 
-│   │       │   └── page.less
+│   │       │   │   └── page-simple-index.less             // 页面用户定义
+│   │       │   ├── layout.less                            // 页面布局样式    
+│   │       │   ├── mod.less                               // 模块样式入口
+│   │       │   └── page.less                              // 页面样式入口
 │   │       ├── core/
 │   │       │   ├── handlebarsStr.css.handlebars
-│   │       │   ├── icon.less                              // icon 图标
+│   │       │   ├── icon.less                              // icon 样式
 │   │       │   ├── sprite-jpg.css
-│   │       │   ├── sprite-png.css                         // 雪碧图样式表
+│   │       │   ├── sprite-png.css                         // 雪碧图样式
 │   │       │   ├── ui-btn.less 
 │   │       │   ├── ui-floatCenter.less 
 │   │       │   ├── ui-forms.less 
 │   │       │   └── ui-pagination.less
 │   │       ├── lib/
-│   │       │   ├── base.less                              // Base class
-│   │       │   └── mixins.less                            // 混合函数
-│   │       └── styles.less                                // 未压缩样式表
+│   │       │   ├── base.less                              // 基础样式
+│   │       │   ├── color.less                             // 全局颜色
+│   │       │   └── mixins.less                            // 通用函数
+│   │       └── styles.less                                // 全局入口
 │   ├── node_modules/
 │   ├── gulpfile.js                                        // 任务文件
 │   ├── package.json                                       // 依赖模块
