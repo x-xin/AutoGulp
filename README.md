@@ -31,6 +31,9 @@ AutoGulp/
 │   │   │   └── styles.css                                 // 最终样式
 │   │   ├── img/                                           // 存放图片
 │   │   └── js/
+│   │       ├── app/ 
+│   │       ├── lib/ 
+│   │       ├── config.js                                  // 模块化配置文件
 │   │       └── all.js                                     // 最终脚本
 │   ├── dev/
 │   │   ├── img/
