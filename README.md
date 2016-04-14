@@ -36,7 +36,11 @@ AutoGulp/
 │   │   ├── img/
 │   │   │   ├── default/                                   // 默认合并图片
 │   │   │   └── sprite/                                    // 雪碧图集合
-│   │   ├── js/                                            // 脚本目录
+│   │   ├── js/                                            
+│   │   │   ├── config.js                                  // 模块化配置文件
+│   │   │   ├── app/                                       // 功能文件
+│   │   │   ├── core/                                      // 自定义封装的组件
+│   │   │   ├── lib/                                       // 源码 插件
 │   │   │   ├── ajax.js 
 │   │   │   ├── jsBridge.js 
 │   │   │   ├── metareset.js 
